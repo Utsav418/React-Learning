@@ -6,6 +6,7 @@ export default function About() {
         color: 'black',
         backgroundColor: 'white'
 
+
     })
 
     const [btnText , setBtnText] = useState('Enable Dark Mode')
@@ -34,6 +35,7 @@ export default function About() {
 
     return (
         <div className="container" style={myStyle} >
+            <h1>LODAKA</h1>
             <h1 className="my-3">About us</h1>
             <div className="accordion" id="accordionExample" style={myStyle}>
                 <div className="accordion-item">
