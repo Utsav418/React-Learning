@@ -32,7 +32,10 @@ export default function About(props) {
     // }
     return (
         <div className="container" style={myStyle} >
+            
              <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h1>
+             {/* <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h1> */}
+
             <div className="accordion" id="accordionExample" style={myStyle}>
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
@@ -74,6 +77,7 @@ export default function About(props) {
             {/* <div className="container my-3">
                 <button onClick = {toggleStyle} type="button" className="btn btn-primary my3" > {btnText} </button>
             </div> */}
-        </div>
+        </div> 
     )
+    
 }
